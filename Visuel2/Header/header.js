@@ -16,9 +16,9 @@ document.body.insertAdjacentHTML("afterBegin",
         '</div>'+
         '<div class="collapse navbar-collapse" id="codebrainery-toggle-nav">'+
          '<ul class="nav navbar-nav navbar-right">'+
-           '<li class="item"><a  href="#">Accueil</a></li>'+
-           '<li class="item"><a  href="#">Thèmes</a></li>'+
-           '<li class="item"><a  href="#">Recherche</a></li>'+
+           '<li class="item"><a class="a.a-nav" href="#">Accueil</a></li>'+
+           '<li class="item"><a class="a.a-nav" href="#">Thèmes</a></li>'+
+           '<li class="item"><a class="a.a-nav" href="#">Recherche</a></li>'+
          '</ul>'+
         '</div>'+
       '</div>'+
