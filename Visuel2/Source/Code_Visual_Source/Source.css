@@ -1,11 +1,3 @@
-body{
-	font-family: "Euroference";
-
-}
-@font-face{
-	font-family: "Euroference";
-	src:url('https://www.dafont.com/fr/eurofurence.font?fpp=50&a=on') format("eurof35.ttf");
-}
 #block-F{
 	background-color: rgb(67,122,189);
 	width:160px;
@@ -178,3 +170,88 @@ body{
 	border-bottom: 4px black solid;
 	z-index:1;
 }
+
+#block-Lib{
+	background-color: white;
+	width:160px;
+ 	height:68px;
+	-webkit-border-radius: 10px; 
+	border-left: 4px black solid;
+	border-top: 4px black solid;
+	border-right: 4px black solid;
+	border-bottom: 4px black solid;
+	z-index:1;
+}
+
+#block-Tele{
+	background-color: black;
+	width:160px;
+ 	height:68px;
+	-webkit-border-radius: 10px; 
+	border-left: 4px black solid;
+	border-top: 4px black solid;
+	border-right: 4px black solid;
+	border-bottom: 4px black solid;
+	z-index:1;
+}
+#block_img_middle_Tele{
+	margin-left:25px;
+	margin-top: 4px;
+	width:110.5px;
+	height:60px;
+}
+
+#block-Futura{
+	background-color: white;
+	width:160px;
+ 	height:68px;
+	-webkit-border-radius: 10px; 
+	border-left: 4px black solid;
+	border-top: 4px black solid;
+	border-right: 4px black solid;
+	border-bottom: 4px black solid;
+	z-index:1;
+}
+#block_img_middle_Futura{
+	margin-left:20px;
+	margin-top: 14px;
+	width:120px;
+	height:40px;
+}
+#block-hum{
+	background-color: white;
+	width:160px;
+ 	height:68px;
+	-webkit-border-radius: 10px; 
+	border-left: 4px black solid;
+	border-top: 4px black solid;
+	border-right: 4px black solid;
+	border-bottom: 4px black solid;
+	z-index:1;
+}
+
+#block_img_middle_Hum{
+	margin-left:20px;
+	margin-top: 22px;
+	width:120px;
+	height:20px;
+}
+#block-Tri{
+	background-color: rgb(1,82,140);
+	width:160px;
+ 	height:68px;
+	-webkit-border-radius: 10px; 
+	border-left: 4px black solid;
+	border-top: 4px black solid;
+	border-right: 4px black solid;
+	border-bottom: 4px black solid;
+	z-index:1;
+}
+#block_img_middle_Tri{
+	margin-left:20px;
+	margin-top: 12px;
+	width:100px;
+	height:40px;
+}
+
+
