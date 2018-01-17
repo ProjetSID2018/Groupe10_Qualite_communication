@@ -1,0 +1,49 @@
+CALL FILTERING_PARTICLE("2017-11-01","Figaro",@vid_article)
+select @vid_article #La procédure fait deux insertions. Une dans la table article avec le vid_article retourné et la date ; et une autre dans la table newspaper elle insert le nom du journal 
+
+CALL FILTERING_PAUTHOR(1,"DUBOIS") #DUBOIS n'existait pas dans la base , du coup Il la crée avec un identifiant quil va stocker avec l'identifiant de l'article rentré en paramètre dans la table realize
+                                   #le code nous renvoie bien une erreur si on essaye d'inserer deux fois le meme id_article pour le meme auteur .
+
+CALL FILTERING_PAUTHOR(2,"DUBOIS") #Pour un article différent avec un auteur existant déja , il ne crée pas un second auteur dans la table auteur
+
+
+CALL FILTERING_PPOSITION_WORD (2, "MANGER","MANGE",TRUE,"MAN", "OK", 1) #il n'ecrase pas mais incrémente quand cest le meme mot
+
+CALL SEMANTIC_PARTICLE(1, 1, 1,  1,  1,  1, 1,  1, 1, 1, TRUE) #Test avec des INT et ca marche (il comprend 1.0 et il l'insert ) #Verifier avant (groupe sémantique) si les tauxs prennnent les bonnes valeurs avant l'appel de la cette procédure 
+
+CALL SEMANTIC_PSYNONYM (1, 25,"OK") #Test ok ,la fonction a bien crée dans la table synonyme OK et a ensuite inséré dans la table common (1,25,"OK")
+
+CALL SEMANTIC_PWORD(1, 2, "FRUIT", "www.wikipedia.com") #Quand le mot n'existe pas , la procédure n'insère pas de lien wiki dans la table wiki 
+CALL SEMANTIC_PWORD(1, 2, "MANGER", "www.wikipedia.com") #La procédure insere bien le lien dans la table wiki quand le mot existait deja dans la base 
+CALL SEMANTIC_PWORD(1, 2, "DORMIR", "google")    #le mots "DORMIR" n'existait pas auparavant dans la base donc La procédure sélectionne l'identifiant du mots associé a l'id article 1 et la position 2 rentrés en parametres. 
+                                                 #Ceci correspondant a l'identifiant de MANGER crée précedemment. DOnc elle fait la mise a jour dans la table position_mot et mets a NULL la valeur de id_wiki car le lien www.google.com n'existait pas dans la table wiki
+CALL SEMANTIC_PWORD(1, 2, "DORMIR", "www.wikipedia.com")  #Dans ce cas elle mets id_wiki dans la table position_mot a 1 correspondant a l'identifiant de www.wikipedia.com car ce lien etait deja connu de la base 
+
+TARTICLE
+INSERT INTO ARTICLE VALUES (6,2017-05-11,1,1,1,1,1,1,1,1,1,TRUE,1) #Pour un id_newspaper existant le declencheur ne se declenche pas et il ya une insertion des données
+INSERT INTO ARTICLE VALUES (6,2017-05-11,1,1,1,1,1,1,1,1,1,TRUE,4)  #Le trigger nous renvoie "NEWSPAPER'S foreign key does not exist 
+
+TPOSITION_WORD
+INSERT INTO position_word values (3,1,1,1,1,1,1) #QUand toutes les clés etrangeres existent , les triggers ne se declenchent pas 
+INSERT INTO position_word values (3,0,78,1,1,1,1) #il renvoie "Articles's foreign key does not exist"
+INSERT INTO position_word values (3,1,1,99,1,1,1) #il renvoi   "Word's foreign key does not exist"    
+INSERT INTO position_word values (3,1,1,1,65,1,1) #il renvoie "Entity's foreign key does not exist"
+INSERT INTO position_word values (3,1,1,1,1,1,88) #il renvoie "wiki's foreign key does not exist
+INSERT INTO position_word values (3,1,1,1,1,8,1)  #il renvoie "POS_TAGGING's Foreign key does not exist"
+
+TBELONG          
+insert into belong values (5, 1,1) #il insere bien dans la table
+insert into belong values (5, 46,1) #Il ne l'insere pas et renvoi le message 
+insert into belong values (5, 1,61) #il ne l'insere pas et renvi le message d'erreur 
+
+TCOMMON 
+insert into common values (1,34,1) # Une erreur est renvoyée, alors que le tuple aurait dû être inséré dans la table common.
+Après retour au groupe 2 pour rectification : 
+insert into common values (1,34,1) # Le tuple est bien inséré dans la table common.
+insert into common values (118,34,1) #il marche pas et declenche lerreur
+insert into common values (1,34,145) #lerreur se declenche
+
+TREALIZE 
+insert into realize values (6,1) #il insere bien 
+insert into realize values (986,1) #l'erreur se déclenche
+insert into realize values (6,1876) #l'erreur se déclenche
