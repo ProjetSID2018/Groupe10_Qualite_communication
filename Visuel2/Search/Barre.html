@@ -40,41 +40,37 @@
     </div>
 
     <!--Research-->
-        <nav class="navbar-default">
+    <nav class="navbar-default">
       <div class="container-fluid">
-       
-            
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-             <li><form class="navbar-form" id="search" action="YOUR_FORM_ACTION_HERE">
-            <div class="form-group">
-              <div class="input-group">
-                 <input type="text" class="form-control" aria-describedby="searchicon" placeholder="Search"><span class="input-group-addon" role="button" id="searchicon" onClick="this.form.submit();"><span class="glyphicon glyphicon-search"></span></span>
+            <li>
+
+              <!--Button research-->
+              <form class="navbar-form" id="search" action="YOUR_FORM_ACTION_HERE">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" class="form-control" aria-describedby="searchicon" placeholder="Search" id="searchBar_input_research"><span class="input-group-addon" role="button" id="searchicon" onClick="this.form.submit();" ><span class="glyphicon glyphicon-search"></span></span>
+                  </div>
                 </div>
-            </div>
-          </form>
-        </li>
+              </form>
+            </li>
             
-            <li class="dropdown navgation">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Date de début<span></span></a>
-              <ul class="dropdown-menu">
-
-              </ul>
+            <!--Starting date-->
+            <li class="dropdown navgation" id="startDate_input_research">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Date de début<span class="1"></span></a>
+                <ul class="dropdown-menu">
+                  <!--Mettre votre calendrier-->
+               </ul>
             </li>
 
             <li class="dropdown navgation">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Date de fin<span ></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><label >Date de fin</label><span></span></a>
               <ul class="dropdown-menu">
-
+                <!--Mettre votre calendrier-->
               </ul>
             </li>
-          </ul>
-
-
-          
-  
+          </ul>    
         </div>
       </div>
     </nav>
