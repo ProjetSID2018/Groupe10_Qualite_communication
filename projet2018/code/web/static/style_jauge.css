@@ -1,0 +1,19 @@
+#gauge {
+    text-align: center;
+}
+
+#g1,
+#g2,
+#g3 {
+    width: 200px;
+    height: 160px;
+    display: inline-block;
+    margin: 1em;
+}
+
+p {
+    display: block;
+    width: 450px;
+    margin: 1em auto;
+    text-align: left;
+}

@@ -1,9 +1,10 @@
 nav {
   background-color: #e7e7e7 !important;
 }
-
+.navbar{
+    margin-bottom: 0px !important;
+}
 .navbar-brand {
-  margin-top: 10px;
   width: 120px;
   height: 80px !important;
 

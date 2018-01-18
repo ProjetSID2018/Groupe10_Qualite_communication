@@ -1,0 +1,16 @@
+{
+    "1": {
+	"id":1,
+	"datelog":"2017-12-21",
+	"user":"Momo",
+	"use_case":"selection des logs",
+	"action":"SELECT"
+    },
+    "2": {
+    "id":2,
+	"datelog":"2017-12-20",
+	"user":"Nabil",
+	"use_case":"insertion des logs",
+	"action":"INSERT"
+    }
+}

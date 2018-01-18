@@ -1,0 +1,143 @@
+/* police importée*/
+@font-face{
+	font-family: "Euroference";
+	src:url('https://www.dafont.com/fr/eurofurence.font?fpp=50&a=on') format("eurof35.ttf");
+}
+
+/* taille et gestion du bloc */
+#block{
+	width:160px;
+ 	height:68px;
+	-webkit-border-radius: 10px;
+	border-left: 4px black solid;
+	border-top: 4px black solid;
+	border-right: 4px black solid;
+	border-bottom: 4px black solid;
+	position:relative;
+	z-index:1;
+}
+
+/*Taille et positionnement du logo*/
+#block_img{
+	float:left;
+	width:60px;
+	height:60px;
+}
+
+#texte{
+	width:152px;
+	height:60px;
+	color:transparent;
+	text-align: center;
+	font-family:"Euroference";
+	outline: none;
+	z-index:3;
+}
+
+/*animation du bloc*/
+#texte:hover {
+	animation: black 100s;
+	transition-timing-function: linear;
+}
+@keyframes black {
+    0% {
+    	background-color:black;
+    	color:white;
+        opacity:0.3;
+        position:relative;
+        z-index:4;
+    }
+    2%{
+    	background-color:black;
+    	color:white;
+        opacity:0.8;
+        position:relative;
+        z-index:4;
+    }
+}
+
+
+
+
+
+
+#block_img_middle{
+	margin-left:45px;
+	width:60px;
+	height:60px;
+}
+
+/* Taille et positionnement du logo non-carré*/
+#block_img_middle_Tele{
+	margin-left:25px;
+	margin-top: 4px;
+	width:110.5px;
+	height:60px;
+}
+
+#block_img_middle_Futura{
+	margin-left:20px;
+	margin-top: 14px;
+	width:120px;
+	height:40px;
+}
+
+#block_img_middle_Hum{
+	margin-left:20px;
+	margin-top: 22px;
+	width:120px;
+	height:20px;
+}
+
+#block_img_middle_Tri{
+	margin-left:20px;
+	margin-top: 12px;
+	width:100px;
+	height:40px;
+}
+
+/* Taille et positionnement du nom associée au journal*/
+#block_name_F{
+	margin-left:60px;
+	margin-top:-35px;
+	float:right;
+	width:105px;
+	height:15px;
+
+}
+
+#block_name_D{
+	margin-left:60px;
+	margin-top:-43px;
+	float:right;
+	width:90px;
+	height:30px;
+
+}
+
+#block_name_LP{
+	margin-left:60px;
+	margin-top:-53px;
+	float:right;
+	width:90px;
+	height:45px;
+
+}
+
+#block_name_Eq{
+	margin-left:55px;
+	margin-top:-40px;
+	float:right;
+	width:82px;
+	height:19px;
+
+}
+
+#block_name_LG{
+	margin-left:60px;
+	margin-top:-40px;
+	float:right;
+	width:82px;
+	height:19px;
+
+}

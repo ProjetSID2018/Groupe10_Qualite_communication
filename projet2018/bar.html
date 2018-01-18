@@ -1,0 +1,76 @@
+<html lang="fr">
+
+  <head>
+    <title id="index">WATCHNEWS</title>
+    <meta charset="utf-8">
+    <link rel="shorcut icon" href="code/WEB/static/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="code/WEB/static/css/style.css" type="text/css" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+    <div id ="searchBar" class="container">
+        <ul class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#codebrainery-toggle-search" aria-expanded="false">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+          <div id="codebrainery-toggle-search" class="collapse navbar-collapse">
+            <div class="col-sm-offset-3">
+              <div class="row">
+                <div id="custom-search-input">
+                  <div class="input-group col-md-12">
+                    <input type="text" class="  search-query form-control" placeholder="Search" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-danger" type="button">
+                            <span class=" glyphicon glyphicon-search"></span>
+                        </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="form-group">
+                    <div class="input-group date" >
+                      <input type="text" class="form-control" id="startDate_input_research"  onclick="new calendar(this);" value="Du :">
+                      <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                    </div>
+                  </div>    
+                </div>
+                <div class="col-sm-offset-1 col-sm-3">
+                  <div class="form-group">
+                    <div class="input-group date" >
+                      <input type="text" class="form-control" id="endDate_input_research"onclick="new calendar(this);" value="Au :">
+                      <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                    </div>
+                  </div>    
+                </div>
+                <div class="col-sm-offset-1 col-sm-2">
+                  <button id="buttonCancel_input_research" type="submit" class="btn btn-primary" onclick="window.location.reload(false)">Réinitialiser</button>
+                </div>
+                <div class="col-sm-2">
+                  <button id="buttonResearch_input_research" type="submit" class="btn btn-primary">Valider</button>
+                </div>
+              </div>
+              <div class="col-md-12">
+            </div>
+          </div>   
+        </ul>
+      </div>
+
+  </body>
+</html>
+
+
+groupe 5 : il reste integration et import json 
+groupe 8 : test_trend
+groupe 4,6 : c'est fini 
+mehdi 2 fichier a tester : la g3_api_bd_query.py v5 et le api_test_

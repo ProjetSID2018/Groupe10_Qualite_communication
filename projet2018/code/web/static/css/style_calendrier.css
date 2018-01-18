@@ -1,0 +1,248 @@
+/*###### Bouton gauche des mois ######*/ 
+	.MonthLeft{
+		width:14px;
+		height:50px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -112px -250px;
+		position:absolute;
+		left:-2px;
+		top:0px;
+	}
+	.MonthLeftOver{
+		width:14px;
+		height:50px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -126px -250px;
+		position:absolute;
+		left:-2px;
+		top:0px;
+	}
+	.MonthLeftClick{
+		width:14px;
+		height:50px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -140px -250px;
+		position:absolute;
+		left:-2px;
+		top:0px;
+	}
+	/*###### Bouton droit des mois ######*/ 
+	.MonthRight{
+		width:14px;
+		height:50px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -154px -250px;
+		position:absolute;
+		right:-2px;
+		top:0px;
+	}
+	.MonthRightOver{
+		width:14px;
+		height:50px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -168px -250px;
+		position:absolute;
+		right:-2px;
+		top:0px;
+	}
+	.MonthRightClick{
+		width:14px;
+		height:50px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -182px -250px;
+		position:absolute;
+		right:-2px;
+		top:0px;
+	}
+	
+	/*###### Bouton haut des années ######*/ 
+	
+	.YearTop{
+		width:14px;
+		height:25px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -196px -250px;
+		position:absolute;
+		right:-2px;
+		top:0px;
+	}
+	.YearTopOver{
+		width:14px;
+		height:25px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -210px -250px;
+		position:absolute;
+		right:-2px;
+		top:0px;		
+	}
+	.YearTopClick{
+		width:14px;
+		height:25px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -224px -250px;
+		position:absolute;
+		right:-2px;
+		top:0px;		
+	}
+	/*###### Bouton bas des années ######*/ 
+	
+	.YearBottom{
+		width:14px;
+		height:25px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -196px -275px;
+		position:absolute;
+		right:-2px;
+		bottom:0px;		
+	}
+	.YearBottomOver{
+		width:14px;
+		height:25px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -210px -275px;
+		position:absolute;
+		right:-2px;
+		bottom:0px;			
+	}
+	.YearBottomClick{
+		width:14px;
+		height:25px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -224px -275px;
+		position:absolute;
+		right:-2px;
+		bottom:0px;			
+	}
+	/*###### conteneur principal ######*/ 
+	.calendar{
+		width:300px;
+		height:250px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') no-repeat;
+		position:absolute;
+		left:400px;
+		font-weight:bold;
+		font-family:Tahoma,"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+		font-size:11px;
+		text-align:center;
+	}
+	
+	.contentMonth{
+		width:130px;
+		height:50px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -100px -300px repeat-x;
+		position:absolute;
+		left:85px;
+		top:5px;
+	}
+	.pMonth{
+		width:130px;
+		height:50px;
+		line-height:50px;
+		display:block;
+	}
+	.contentDay{
+		width:56px;
+		height:50px;
+		line-height:25px;
+		text-align:center;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') 0px -250px;
+		position:absolute;
+		left:15px;
+		top:5px;
+	}
+	.contentYear{
+		width:56px;
+		height:50px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -56px -250px;
+		position:absolute;
+		left:230px;
+		top:5px;
+	}
+	.pYear{
+		width:42px;
+		height:50px;
+		line-height:50px;
+		display:block;
+	}
+	.contentListDay{
+		width:290px;
+		height:155px;
+		overflow:hidden;
+		position:absolute;
+		left:5px;
+		top:90px;
+
+	}
+	.contentListDay ul{
+		width:100%;
+		height:100%;
+		position:absolute;
+		margin:0px;
+		padding:2px 0px 0px 1px;
+	}
+	.dayCurrent{
+		width:41px;
+		height:25px;
+		line-height:25px;
+		display:block;
+		float:left;
+		text-align:center;
+		color:#000000;
+		font-weight:bold;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -41px -352px;
+	}
+	.liOut{
+		width:41px;
+		height:25px;
+		line-height:25px;
+		display:block;
+		float:left;
+		text-align:center;
+		color:#000000;
+		font-weight:bold;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') 0px -352px;
+		cursor:pointer;
+	}
+	.liHover{
+		width:41px;
+		height:25px;
+		line-height:25px;
+		display:block;
+		float:left;
+		text-align:center;
+		color:#000000;
+		font-weight:bold;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -41px -352px;
+		cursor:pointer;
+	}
+	.liInactive{
+		width:41px;
+		height:25px;
+		line-height:25px;
+		display:block;
+		float:left;
+		text-align:center;
+		color:#000000;
+		font-weight:bold;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') -82px -352px;
+	}
+	.contentNameDay{
+		width:290px;
+		height:27px;
+		line-height:27px;
+		overflow:hidden;
+		position:absolute;
+		left:5px;
+		top:63px;
+		padding:0px;
+		margin:0px;
+		list-style:none;
+	}
+	
+	.contentNameDay li{
+		width:41px;
+		display:block;
+		float:left;
+		text-align:center;
+		color:#000000;
+		font-weight:bold;
+	}
+
+	.bugFrame{
+		position:absolute;
+		top:0px;
+		left:0px;
+		background:url('http://dmouronval.developpez.com/calendrier/images/static.png') no-repeat;
+		z-index:0;
+		width:100%;
+		height:100%;
+		border:0px;
+	}
