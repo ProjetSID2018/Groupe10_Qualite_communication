@@ -26,16 +26,20 @@ The knowledge is in the core of the formation, to know *data processing*, the *s
 Version 1.0 _Released_
 Version 1.1 _Scheduled_ (an internship)
 
-##Architecture 
+## Architecture
+
 ![Logo] (https://github.com/ProjetSID2018/Groupe10_Qualite_communication/blob/master/architecture.PNG)
 
 ## Prerequisites
+
 ### System requirements
-###Minimale System Requirements
+
+#### Minimale System Requirements
 *Operating system:* Windows Vista® / Mac OS X 10.8 / Debian Version 9
 *Processor:* Intel Core i3  @4.0 GHz
 *RAM:* 4 Go
-###Recommended system requirements
+
+#### Recommended system requirements
 Recommended System Requirements
 *Operating system:* Windows 10® / Mac OS X 10.10 / Debian Version 9
 *Processeur:* Intel Core i5  @6.0 GHz
