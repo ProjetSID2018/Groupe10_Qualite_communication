@@ -33,18 +33,18 @@ Version 1.1 _Scheduled_
 ### System requirements
 
 #### Minimale System Requirements
-**Operating system:** Windows Vista® / Mac OS X 10.8 / Debian Version 9
+_Operating system:_ Windows Vista® / Mac OS X 10.8 / Debian Version 9
 
-**Processor:** Intel Core i3  @4.0 GHz
+_Processor:_ Intel Core i3  @4.0 GHz
 
-**RAM:** 4 Go
+_RAM:_ 4 Go
 
 #### Recommended system requirements
-**Operating system:** Windows 10® / Mac OS X 10.10 / Debian Version 9
+_Operating system:_ Windows 10® / Mac OS X 10.10 / Debian Version 9
 
-**Processeur:** Intel Core i5  @6.0 GHz
+_Processeur:_ Intel Core i5  @6.0 GHz
 
-**RAM:** 8 Go
+_RAM:_ 8 Go
 
 #### Compatible Web browsers
 Google Chrome, Mozilla Firefox, Safari
@@ -53,7 +53,7 @@ Google Chrome, Mozilla Firefox, Safari
 This project is realised by all the students of [CMI SID Schooling](http://www.univ-tlse3.fr/masters/master-statistique-et-informatique-decisionnelle-709138.kjsp) of **Paul Sabatier University**, with the help of some of their professors.
 
 ## Links
-[CMI SID GitHub](https://cmisid.github.io)
+[CMI SID All Projects](https://cmisid.github.io)
 
 [CMI SID GitHub](https://github.com/cmisid)
 
