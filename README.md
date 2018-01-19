@@ -14,12 +14,12 @@ projet)
 ![Logo](https://raw.githubusercontent.com/ProjetSID2018/Groupe10_Qualite_communication/master/Logos/Logo3.png)
 
 ## Utilisation
-<p style="text-align:justify;">
+<p style="text-align:justify";>
   The website WATCHNEWS allow us to *analyze digital medias* in order to bring out the main word, themes of actuality or of a given period or the processing of information bias of different sources.
   </p>
 
 ## Motivation
-<p style="text-align:justify;">
+<p style="text-align:justify";>
   From the 8 to the 19 January take place the 4th interpromotion project of CMI SID course of *Paul Sabatier University*.
   All 90 students of CMI SID course, 3rd, 4th and 5th years, participated to this project.
   This project allows us to develop our skills in working in a startup spirit. 
@@ -37,13 +37,16 @@ Version 1.1 _Scheduled_
 
 #### Minimale System Requirements
 *Operating system:* Windows Vista® / Mac OS X 10.8 / Debian Version 9
+
 *Processor:* Intel Core i3  @4.0 GHz
+
 *RAM:* 4 Go
 
 #### Recommended system requirements
-Recommended System Requirements
 *Operating system:* Windows 10® / Mac OS X 10.10 / Debian Version 9
+
 *Processeur:* Intel Core i5  @6.0 GHz
+
 *RAM:* 8 Go
 
 #### Compatible Web browsers
