@@ -11,7 +11,7 @@ projet)
 
 
 # WatchNews
-![Logo](https://raw.githubusercontent.com/ProjetSID2018/Groupe10_Qualite_communication/master/Logos/Logo3.png)
+![Logo](https://raw.githubusercontent.com/ProjetSID2018/Groupe10_Qualite_communication/master/Logos/bleu1.png)
 
 ## Utilisation
   The website WATCHNEWS allow us to **analyze digital medias** in order to bring out the main word, themes of actuality or of a given period or the processing of information bias of different sources.
