@@ -21,7 +21,7 @@ projet)
   From the 8 to the 19 Januar;y take place the 4th interpromotion project of CMI SID course of **Paul Sabatier University**.
   All 90 students of CMI SID course, 3rd, 4th and 5th years, participated to this project.
   This project allows us to develop our skills in working in a startup spirit. 
-  The knowledge is in the core of the formation, to know *data processing*, the **statistics** and **databases** which we are also be able to work in apply **SCRUM method**.
+  The knowledge is in the core of the formation, to know **data processing**, the **statistics** and **databases** which we are also be able to work in apply **SCRUM method**.
 
 ## State of the project
 Version 1.0 _Released_
@@ -40,9 +40,9 @@ Version 1.1 _Scheduled_
 **RAM:** 4 Go
 
 #### Recommended system requirements
-*Operating system:** Windows 10® / Mac OS X 10.10 / Debian Version 9
+**Operating system:** Windows 10® / Mac OS X 10.10 / Debian Version 9
 
-*Processeur:** Intel Core i5  @6.0 GHz
+**Processeur:** Intel Core i5  @6.0 GHz
 
 **RAM:** 8 Go
 
