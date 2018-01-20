@@ -23,7 +23,7 @@ img.navbar-brand{
 
 .a-nav:hover, .a-nav:focus, .a-nav:active {
     text-decoration: none;
-    color: #4682B4 !important;
+    color: #4682B4;
 }
 .a-nav {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -651,14 +651,13 @@ div#themeBar.container .navbar-collapse{
 }
 
 h5.theme {
-  color: ;
   font-size: 100%;
   font-weight: bold;
 }
 
 div#container2_div_theme{
   margin-top: -3%;
-  color: #777;t
+  color: #777;
 
 }
 
@@ -668,7 +667,7 @@ div#container2_div_theme{
 }
 
 .input-group-addon {
-  margin-right: : -17%;
+  margin-right: -17%;
 }
 
 div#list_theme_div_theme.row{
